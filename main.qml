@@ -17,9 +17,8 @@ Window {
       anchors.fill: parent
 
       Component.onCompleted: {
-        open("file:/Users/alez/Downloads/passport.jpg", "")
+        open("C:/Users/angel/desktop/1.bmp")
       }
     }
   }
-
 }
