@@ -16,4 +16,5 @@ void PdfEditorItem::paint(QPainter* painter) {
 
 void PdfEditorItem::open(const QString& filepath) {
     m_filepath = filepath;
+    update();
 }
